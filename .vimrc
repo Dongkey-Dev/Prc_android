@@ -39,10 +39,10 @@ Plugin 'eliba2/vim-node-inspect'
 Plugin 'junegunn/fzf.vim'
 
 " Markdown Viewr ------------------------------------------------------------
-Plugin 'shime/vim-livedown'
-nmap <leader>d :LivedownToggle<CR>
-
-" ---------------------------------------------------------------markdown-------
+Plugin 'plasticboy/vim-markdown'
+Plugin 'iamcco/markdown-preview.nvim', {'do': 'cd app& yarn install' }
+Plugin 'godlygeek/tabular'
+" ---------------------markdown----------------------------------------------
 call vundle#end()            " required
 "filetype plugin indent on    " required
 "NERDTree ON 단축키를 "\nt"로 설정
