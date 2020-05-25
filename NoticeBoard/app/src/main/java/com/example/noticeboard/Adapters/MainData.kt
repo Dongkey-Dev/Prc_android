@@ -1,7 +1,7 @@
 package com.example.noticeboard.Adapters
 
 data class MainData(
-    val photo: String,
+    val photo: Int,
     val Title: String,
     val Creator: String,
     val PostDate: String,

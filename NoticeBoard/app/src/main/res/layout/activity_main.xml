@@ -24,7 +24,8 @@
             android:layout_margin="8dp"
             android:scrollbarFadeDuration="0"
             android:scrollbarSize="5dp"
-            android:scrollbarThumbVertical="@android:color/darker_gray">
+            android:scrollbarThumbVertical="@android:color/darker_gray"
+            tools:listitem="@layout/post_list">
     </androidx.recyclerview.widget.RecyclerView>
 
 
