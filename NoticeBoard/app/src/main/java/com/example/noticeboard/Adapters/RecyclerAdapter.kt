@@ -18,9 +18,9 @@ class RecyclerAdapter : RecyclerView.Adapter<RecyclerAdapter.MainViewHolder>() {
 
     var items: MutableList<MainData> =
         mutableListOf(
-            MainData("dongkey", "test1", "동호", "20200520", 10, "test my PostContents"),
-            MainData("dongkey", "test2", "동호", "20200520", 10, "test my PostContents"),
-            MainData("dongkey", "test3", "동호", "20200520", 10, "test my PostContents")
+//            MainData("dongkey", "test1", "동호", "20200520", 10, "test my PostContents"),
+//            MainData("dongkey", "test2", "동호", "20200520", 10, "test my PostContents"),
+//            MainData("dongkey", "test3", "동호", "20200520", 10, "test my PostContents")
         )
 
     override fun onCreateViewHolder(parent: ViewGroup, p1: Int) = MainViewHolder(parent)
